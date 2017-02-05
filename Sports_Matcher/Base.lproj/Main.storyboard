@@ -63,8 +63,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dlr-gH-wY6">
+                                <rect key="frame" x="0.0" y="342" width="375" height="232"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONc-78-b4D">
-                                <rect key="frame" x="163" y="480" width="49" height="30"/>
+                                <rect key="frame" x="163" y="605" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
@@ -77,12 +81,13 @@
                     <connections>
                         <outlet property="email" destination="AFf-Il-2Df" id="m7n-I7-SYa"/>
                         <outlet property="name" destination="5gf-Rf-rZp" id="T6F-9e-oLX"/>
+                        <outlet property="picker" destination="Dlr-gH-wY6" id="4Bb-hi-txn"/>
                         <outlet property="zip_code" destination="X9e-Lp-t7F" id="lhM-v8-cLm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YFZ-Mm-dtX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-168" y="-777"/>
+            <point key="canvasLocation" x="-168.80000000000001" y="-777.66116941529242"/>
         </scene>
     </scenes>
 </document>
