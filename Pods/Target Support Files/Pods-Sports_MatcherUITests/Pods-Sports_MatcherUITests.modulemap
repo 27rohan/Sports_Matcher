@@ -1,0 +1,6 @@
+framework module Pods_Sports_MatcherUITests {
+  umbrella header "Pods-Sports_MatcherUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
